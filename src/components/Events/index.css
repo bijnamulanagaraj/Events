@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.events-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.active-event-details {
+  height: 100vh;
+  width: 40%;
+}
+
+.events-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #3a4b63;
+  width: 80%;
+}
+
+.event-heading {
+  color: #ffffff;
+  font-size: 25px;
+}
